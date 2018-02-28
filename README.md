@@ -13,9 +13,8 @@ resolve: {
 ```js
 import React from 'react';
 
-import ComponentA from '~/components/ComponentA'; // [eslint] There should be at least one empty line between import groups (import/order)
-import ComponentB from '~/components/ComponentB'; // [eslint] There should be at least one empty line between import groups (import/order)
-import ComponentC from '~/components/ComponentC'; // no error
+import Foo from '~/components/Foo'; // [eslint] There should be at least one empty line between import groups (import/order)
+import Bar from '~/components/Bar'; // no error
 
-import ComponentD from '~/components/ComponentD'; // no error
+import Baz from '~/components/Baz'; // no error
 ```
